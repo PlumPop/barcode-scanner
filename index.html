@@ -1,0 +1,222 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>PlumPop - Barcode Scanner</title>
+
+    <link rel="stylesheet" href="css/foundation-6.6.3/css/foundation.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-y">
+        <h1>Initial Setup</h1>
+        <ol>
+            <li>
+                <a data-open="reset-to-default-factory-settings-modal">Reset the barcode scanner to the default factory
+                    settings.</a>
+            </li>
+            <li>
+                <a data-open="change-bluetooth-name-mode-modal">Enable the &quot;Change Bluetooth Name&quot; mode.</a>
+            </li>
+            <li>
+                <a data-open="set-plumpop-scanner-name-modal">Set the barcode scanner name to &quot;PlumPop Scanner&quot;.</a>
+            </li>
+            <li>
+                <a data-open="save-plumpop-scanner-name-modal">Save the &quot;PlumPop Scanner&quot; name.</a>
+            </li>
+            <li>
+                <a data-open="standby-never-modal">Update the standby setting to never.</a>
+            </li>
+            <li>
+                <span>Test the barcode scanner works with a PlumPop Merchant tablet.</span>
+            </li>
+            <li>
+                <a data-open="turn-off-volume-modal">Turn off the volume.</a>
+            </li>
+            <li>
+                <a data-open="standby-immediately-modal">Standby immediately.</a>
+            </li>
+        </ol>
+        <h1>Additional Settings</h1>
+        <h2>Volume</h2>
+        <ul>
+            <li>
+                <a data-open="turn-on-volume-modal">Turn on volume</a>
+            </li>
+            <li>
+                <a data-open="turn-off-volume-modal">Turn off volume</a>
+            </li>
+        </ul>
+        <h2>Standby</h2>
+        <ul>
+            <li>
+                <a data-open="standby-immediately-modal">Standby immediately</a>
+            </li>
+            <li>
+                <a data-open="standby-never-modal">Never standby</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="reveal" id="reset-to-default-factory-settings-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Reset to Default Factory Settings</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCode93" -->
+            <img src="img/codes/reset_to_factory_settings_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Reset to Default Factory Settings QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="change-bluetooth-name-mode-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>&quot;Change Bluetooth Name&quot; Mode</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCodeEC" -->
+            <img src="img/codes/change_bluetooth_name_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="&quot;Change Bluetooth Name&quot; Mode QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="set-plumpop-scanner-name-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Set &quot;PlumPop Scanner&quot; Name</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "PlumPop Scanner " -->
+            <img src="img/codes/plumpop_scanner_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Set &quot;PlumPop Scanner&quot; Name QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="save-plumpop-scanner-name-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Save &quot;PlumPop Scanner&quot; Name</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCode92" -->
+            <img src="img/codes/save_scanner_name_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Save &quot;PlumPop Scanner&quot; Name QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="standby-never-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Never Standby</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCode36" -->
+            <img src="img/codes/standby_never_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Never Standby QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="turn-off-volume-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Turn Off Volume</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCode94" -->
+            <img src="img/codes/turn_volume_off_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Turn Off Volume QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="standby-immediately-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Standby Immediately</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCode38" -->
+            <img src="img/codes/standby_immediately_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Standby Immediately QR Code">
+        </div>
+    </div>
+</div>
+
+<div class="reveal" id="turn-on-volume-modal" data-reveal>
+    <div class="grid-y">
+        <div class="cell">
+            <a class="close-modal-button" type="button" data-close="">&times;</a>
+        </div>
+        <div class="cell">
+            <h3>Turn On Volume</h3>
+        </div>
+        <div class="cell text-center">
+            <!-- "%%SpecCode97" -->
+            <img src="img/codes/turn_volume_on_qr_code_300x300.png"
+                 class="qr-code"
+                 width="300"
+                 height="300"
+                 alt="Turn On Volume QR Code">
+        </div>
+    </div>
+</div>
+
+<script src="css/foundation-6.6.3/js/vendor.js"></script>
+<script src="css/foundation-6.6.3/js/foundation.js"></script>
+<script src="css/foundation-6.6.3/js/app.js"></script>
+</body>
+</html>
